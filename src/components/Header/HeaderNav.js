@@ -3,14 +3,14 @@ import { Nav } from "react-bootstrap";
 
 const HeaderNav = () => {
   return (
-    <Nav defaultActiveKey="/home" className="flex-column">
-      <Nav.Link href="/home">
+    <Nav defaultActiveKey="#hero" className="flex-column">
+      <Nav.Link href="#hero">
         <h4 className="link-text">Home</h4>
       </Nav.Link>
-      <Nav.Link href="/home">
+      <Nav.Link href="#about">
         <h4 className="link-text">About</h4>
       </Nav.Link>
-      <Nav.Link href="/home">
+      <Nav.Link href="#resume">
         <h4 className="link-text">Resume</h4>
       </Nav.Link>
       <Nav.Link href="/home">

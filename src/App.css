@@ -8,6 +8,11 @@ header {
   position: fixed;
 }
 
+section {
+  margin-left: 300px;
+  padding: 60px;
+}
+
 .nav-link-text {
   color: #fff;
 }
@@ -37,7 +42,7 @@ header {
 .profile-picture {
   border-radius: 90px;
   margin-bottom: 1rem;
-  border: 6px solid #2a4b8c;
+  border: 7px solid #2a4b8c;
 }
 
 .profile-container {
@@ -47,16 +52,96 @@ header {
 
 .hero-section {
   width: 100%;
-  background: url(../src/static/img/sf9-hero-placeholder.jpg) no-repeat center
-    center;
+  height: 100vh;
+  background: url(../src/static/img/930660.jpg) no-repeat center center;
   background-size: cover;
   align-items: center !important;
   justify-content: center !important;
   flex-direction: column !important ;
   display: flex !important;
   padding: 60px 0;
+  color: #fff;
 }
 
-section {
-  height: 100vh;
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+  margin-bottom: 30px;
+  padding-left: 30%;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: #001540;
+}
+
+.section-title h2 {
+  font-weight: bold;
+}
+
+.section-title h2::after {
+  content: "";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #2a4b8c;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title p {
+  font-size: 18px;
+}
+
+.section-title h2 {
+  font-size: 38px;
+}
+
+.about {
+  overflow: hidden;
+  display: block;
+  width: auto;
+  margin-right: auto;
+}
+
+.about-profile-img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.about-info div ul {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.about-info div ul li {
+  margin: 5px;
+}
+
+.about-info div ul li svg {
+  color: #001540;
+  font-size: 24px;
+}
+
+.resume-item {
+  border-left: #2a4b8c solid 2px;
+  padding: 0 0 20px 20px;
+  position: relative;
+}
+
+.resume-item::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #2a4b8c;
 }
