@@ -8,6 +8,7 @@ const StackContainer = () => {
     <section id="techstack">
       <StackHeader />
       <Languages />
+      <hr />
       <Frameworks />
     </section>
   );
