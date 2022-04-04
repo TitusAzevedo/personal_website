@@ -2,7 +2,7 @@ import React from "react";
 import HeaderProfile from "./HeaderProfile";
 import HeaderNav from "./HeaderNav";
 
-const HeaderBanner = () => {
+const HeaderContainer = () => {
   return (
     <header>
       <HeaderProfile />
@@ -11,4 +11,4 @@ const HeaderBanner = () => {
   );
 };
 
-export default HeaderBanner;
+export default HeaderContainer;

@@ -16,7 +16,7 @@ const Hero = () => {
           sequence={[
             "I'm a Developer",
             2000,
-            "I'm a Engineer",
+            "I'm an Engineer",
             2000,
             "I'm a gigachad",
             2000,

@@ -51,7 +51,7 @@ section {
 }
 
 .hero-section {
-  width: 100%;
+  width: auto;
   height: 100vh;
   background: url(../src/static/img/930660.jpg) no-repeat center center;
   background-size: cover;
@@ -137,11 +137,11 @@ section {
 
 .resume-item::before {
   content: "";
+  left: -9px;
+  position: absolute;
   width: 16px;
   height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
+  border-radius: 90px;
   background: #fff;
   border: 2px solid #2a4b8c;
 }
