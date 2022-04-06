@@ -156,3 +156,8 @@ section {
   padding: 20px;
   margin: 20px;
 }
+
+.techstack-items div div img {
+  display: flex;
+  justify-content: center;
+}

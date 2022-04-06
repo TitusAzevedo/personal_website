@@ -13,51 +13,99 @@ const Frameworks = () => {
   return (
     <div className="container">
       <Row className="techstack-items">
-        <Col sm={3}>
+        <Col sm={2}>
           <Card>
-            <Card.Img src={react} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://reactjs.org/"
+            >
+              <Card.Img src={react} />
+            </a>
           </Card>
         </Col>
 
-        <Col sm={3}>
+        <Col sm={2}>
           <Card>
-            <Card.Img src={plotly} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://plotly.com/"
+            >
+              <Card.Img src={plotly} />
+            </a>
           </Card>
         </Col>
 
-        <Col sm={3}>
+        <Col sm={2}>
           <Card>
-            <Card.Img src={pandas} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://pandas.pydata.org/"
+            >
+              <Card.Img src={pandas} />
+            </a>
           </Card>
         </Col>
 
-        <Col sm={3}>
+        <Col sm={2}>
           <Card>
-            <Card.Img src={bootstrap} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://getbootstrap.com/"
+            >
+              <Card.Img src={bootstrap} />
+            </a>
           </Card>
         </Col>
       </Row>
 
       <Row className="techstack-items">
-        <Col sm={3}>
+        <Col sm={2}>
           <Card>
-            <Card.Img src={selenium} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.selenium.dev/"
+            >
+              <Card.Img src={selenium} />
+            </a>
           </Card>
         </Col>
-        <Col sm={3}>
+        <Col sm={2}>
           <Card>
-            <Card.Img src={mysql} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.mysql.com/de/"
+            >
+              <Card.Img src={mysql} />
+            </a>
           </Card>
         </Col>
-        <Col sm={3}>
+        <Col sm={2}>
           <Card>
-            <Card.Img src={flask} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://flask.palletsprojects.com/en/2.1.x/"
+            >
+              <Card.Img src={flask} />
+            </a>
           </Card>
         </Col>
 
-        <Col sm={3}>
+        <Col sm={2}>
           <Card>
-            <Card.Img src={debian} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.debian.org/index.de.html"
+            >
+              <Card.Img src={debian} />
+            </a>
           </Card>
         </Col>
       </Row>

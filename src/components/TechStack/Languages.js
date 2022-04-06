@@ -11,22 +11,46 @@ const Languages = () => {
       <Row className="techstack-items">
         <Col sm={3}>
           <Card>
-            <Card.Img src={python_logo} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.python.org/"
+            >
+              <Card.Img src={python_logo} />
+            </a>
           </Card>
         </Col>
         <Col sm={3}>
           <Card>
-            <Card.Img src={javascript_logo} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
+            >
+              <Card.Img src={javascript_logo} />
+            </a>
           </Card>
         </Col>
         <Col sm={3}>
           <Card>
-            <Card.Img src={java_logo} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.java.com/de/"
+            >
+              <Card.Img src={java_logo} />
+            </a>
           </Card>
         </Col>
         <Col sm={3}>
           <Card>
-            <Card.Img src={htmlcss} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.w3schools.com/html/html_css.asp"
+            >
+              <Card.Img src={htmlcss} />
+            </a>
           </Card>
         </Col>
       </Row>
